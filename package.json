@@ -1,0 +1,13 @@
+{
+  "name": "card_scraper",
+  "version": "0.0.1",
+  "description": "Scrapes cards into a json file from getmentalnotes.com/cards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Abreu <lmjabreu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
