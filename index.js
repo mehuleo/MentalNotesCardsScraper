@@ -10,7 +10,7 @@ function extractCardID ( href ) {
   return href.match( /.*\/(.*)$/ )[ 1 ];
 }
 
-function extractElementTextIterator ( index, element ) {
+function extractTextFromElementIterator ( index, element ) {
   return cheerio( this ).text();
 }
 
