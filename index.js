@@ -1,10 +1,11 @@
-var request   = require( 'request' ),
-    cheerio   = require( 'cheerio' ),
-    async     = require( 'async' ),
-    fs        = require( 'fs' ),
-    BASE_URL  = 'http://getmentalnotes.com',
-    CARDS_URL = BASE_URL + '/cards',
-    cards     = [];
+var request     = require( 'request' ),
+    cheerio     = require( 'cheerio' ),
+    async       = require( 'async' ),
+    fs          = require( 'fs' ),
+    categoryMap = require( __dirname + '/categoryMap.json' ),
+    BASE_URL    = 'http://getmentalnotes.com',
+    CARDS_URL   = BASE_URL + '/cards',
+    cards       = [];
 
 function extractCardID ( href ) {
   return href.match( /.*\/(.*)$/ )[ 1 ];
@@ -33,7 +34,7 @@ function parseCardPage ( callback, error, response, body ) {
     summary: $cardDetail.find( '.info h2' ).text(),
     description: $cardDetail.find( '.content .how' ).next( 'p' ).text(),
     examples: $cardDetail.find( '.examples' ).next( 'ul' ).find( 'li' ).map( extractTextFromElementIterator ),
-    categories: '',
+    categories: categoryMap[ titleToID( $cardDetail.find( '.info h1' ).text() ) ],
     related: $cardDetail.find( '.seeAlso a' ).map( extractTextFromElementIterator ).map( titleToID ),
     resources: $cardDetail.find( '.resources p' ).text()
   } );

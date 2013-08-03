@@ -1,5 +1,59 @@
 [
   {
+    "id": "recognition_over_recall",
+    "title": "Recognition over Recall",
+    "summary": "It's easier to recognize things we have previously experienced than it is to recall them from memory.",
+    "description": "Multiple-choice or one-click options are easy ways for people to interact with a site. If you’re considering asking people to list things from memory, try complementing (or replacing) empty form fields with defined, random or intelligent choices that people can click on or rate.",
+    "examples": [],
+    "categories": [
+      "Attention",
+      "Persuasion"
+    ],
+    "related": [
+      "visual_imagery",
+      "limited_choice",
+      "contrast",
+      "feedback_loops"
+    ],
+    "resources": ""
+  },
+  {
+    "id": "pattern_recognition",
+    "title": "Pattern Recognition",
+    "summary": "Our brains seek ways to organize and simplify complex information, even when there is no pattern.",
+    "description": "What information can you display in a way that arouses curiosity and encourages pattern-seeking behavior? Patterns can be found within a single page (a list of albums, for example) or spread across a site (a curious icon set or color coding that make sense once the pattern is discovered). Also consider playful ways to enable users to organize or label information—such as making a game of arranging things.",
+    "examples": [],
+    "categories": [
+      "Attention"
+    ],
+    "related": [
+      "curiosity",
+      "juxtaposition",
+      "set_completion",
+      "uniform_connectedness",
+      "proximity",
+      "visual_imagery"
+    ],
+    "resources": ""
+  },
+  {
+    "id": "curiosity",
+    "title": "Curiosity",
+    "summary": "When teased with a small bit of interesting information, people will want to know more!",
+    "description": "When—and what—can you hold back? Reveal just enough to arouse interest, then tease someone into taking the next step. You can also arouse interest by doing something unusual and unexpected—people will stick around long enough to determine what’s going on. Puzzles are similarly intriguing.",
+    "examples": [],
+    "categories": [
+      "Attention",
+      "Persuasion"
+    ],
+    "related": [
+      "pattern_recognition",
+      "appropriate_challenges",
+      "gifting"
+    ],
+    "resources": ""
+  },
+  {
     "id": "social_proof",
     "title": "Social Proof",
     "summary": "We tend to follow the patterns of similar others in new or unfamiliar situations.",
@@ -7,7 +61,9 @@
     "examples": [
       "Check out the way Facebook displays follower count."
     ],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "positive_mimicry",
       "status_quo_bias",
@@ -21,74 +77,15 @@
     "resources": "Lowenstein, G. (1994). The psychology of curiosity: A review and reinterpretation. Psychological Bulletin, 116, 75-98."
   },
   {
-    "id": "recognition_over_recall",
-    "title": "Recognition over Recall",
-    "summary": "It's easier to recognize things we have previously experienced than it is to recall them from memory.",
-    "description": "Multiple-choice or one-click options are easy ways for people to interact with a site. If you’re considering asking people to list things from memory, try complementing (or replacing) empty form fields with defined, random or intelligent choices that people can click on or rate.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "visual_imagery",
-      "limited_choice",
-      "contrast",
-      "feedback_loops"
-    ],
-    "resources": ""
-  },
-  {
-    "id": "peak_end_rule",
-    "title": "Peak-End Rule",
-    "summary": "We judge our past experiences almost entirely by their peaks (pleasant and unpleasant) and how they ended.",
-    "description": "What are the peaks and endings in the customer experience you’ve designed? Peaks may be the core value you provide or a small surprise thrown into the user journey. Endpoints can be obvious (order fulfillment from an e-commerce site) or more subtle (such as a friendly or funny registration confirmation page). Identify and improve these.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "humor_effect",
-      "delighters",
-      "surprise",
-      "story",
-      "gifting"
-    ],
-    "resources": ""
-  },
-  {
-    "id": "curiosity",
-    "title": "Curiosity",
-    "summary": "When teased with a small bit of interesting information, people will want to know more!",
-    "description": "When—and what—can you hold back? Reveal just enough to arouse interest, then tease someone into taking the next step. You can also arouse interest by doing something unusual and unexpected—people will stick around long enough to determine what’s going on. Puzzles are similarly intriguing.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "pattern_recognition",
-      "appropriate_challenges",
-      "gifting"
-    ],
-    "resources": ""
-  },
-  {
-    "id": "pattern_recognition",
-    "title": "Pattern Recognition",
-    "summary": "Our brains seek ways to organize and simplify complex information, even when there is no pattern.",
-    "description": "What information can you display in a way that arouses curiosity and encourages pattern-seeking behavior? Patterns can be found within a single page (a list of albums, for example) or spread across a site (a curious icon set or color coding that make sense once the pattern is discovered). Also consider playful ways to enable users to organize or label information—such as making a game of arranging things.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "curiosity",
-      "juxtaposition",
-      "set_completion",
-      "uniform_connectedness",
-      "proximity",
-      "visual_imagery"
-    ],
-    "resources": ""
-  },
-  {
     "id": "gifting",
     "title": "Gifting",
     "summary": "We feel the need to reciprocate when we receive a gift.",
     "description": "What can you give away? It could be a free account or an upgrade. Maybe a free report—or example, personal informatics are interesting. Perhaps a gift card. Make it something unexpected. And if other similar services are giving away the same thing, it’s not a gift—it’s expected.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion",
+      "Attention"
+    ],
     "related": [
       "delighters",
       "variable_rewards",
@@ -99,12 +96,33 @@
     "resources": ""
   },
   {
+    "id": "delighters",
+    "title": "Delighters",
+    "summary": "We remember and respond favorably to small, unexpected and playful pleasures.",
+    "description": "How can you add surprise and delight? Maybe it’s fun microcopy, a link to an amusing video or a compliment. Perhaps it’s an “Easter Egg” such as a coupon, virtual gift or humorous image that’s hidden within your site. Even the satisfaction of discovering a connection or solving a mental puzzle can help form a favorable and memorable impression.",
+    "examples": [],
+    "categories": [
+      "Attention",
+      "Memory"
+    ],
+    "related": [
+      "pattern_recognition",
+      "gifting",
+      "appropriate_challenges",
+      "humor_effect",
+      "surprise"
+    ],
+    "resources": ""
+  },
+  {
     "id": "anchoring_and_adjustment",
     "title": "Anchoring & Adjustment",
     "summary": "When making decisions, we rely too heavily—or anchor—on one trait or piece of information.",
     "description": "In unfamiliar situations, we tend to assess things based on a single known anchor from which we make relative adjustments. These anchors are often a numeric value, such as an original price or a single attribute such as megapixels on a digital camera. Oddly enough, even the suggestion of a completely irrelevant number can influence subsequent numeric predictions. What anchors are you intentionally—or unintentionally—provinding people?",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "conceptual_metaphor",
       "priming",
@@ -118,86 +136,13 @@
     "summary": "Aesthetically pleasing designs are often perceived as being easier to use.",
     "description": "Attractive things work better—or at least we perceive them as being easier to use. Have you evaluated how attractive your application (or site) is to your users? We are more forgiving of attractive designs and assume they are (or should be) easier to use. The curious part? A well-designed site is often a more usable site.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "affect_heuristic",
       "visual_imagery",
       "sensory_appeal"
-    ],
-    "resources": ""
-  },
-  {
-    "id": "serial_position_effect",
-    "title": "Serial Position Effect",
-    "summary": "We have much better recall of the first and last items within a list.",
-    "description": "How do you sequence list items? If recall of specific items is critical, list the most important items at the beginning and end of a list. This could be applied to a list of checkbox items, a list of product features, the company bios—any page with a long list of items.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "peak_end_rule",
-      "chunking"
-    ],
-    "resources": ""
-  },
-  {
-    "id": "delighters",
-    "title": "Delighters",
-    "summary": "We remember and respond favorably to small, unexpected and playful pleasures.",
-    "description": "How can you add surprise and delight? Maybe it’s fun microcopy, a link to an amusing video or a compliment. Perhaps it’s an “Easter Egg” such as a coupon, virtual gift or humorous image that’s hidden within your site. Even the satisfaction of discovering a connection or solving a mental puzzle can help form a favorable and memorable impression.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "pattern_recognition",
-      "gifting",
-      "appropriate_challenges",
-      "humor_effect",
-      "surprise"
-    ],
-    "resources": ""
-  },
-  {
-    "id": "loss_aversion",
-    "title": "Loss Aversion",
-    "summary": "We hate losing or letting go of what we have (even if more could be had).",
-    "description": "What is lost by leaving your site? If sign-up is your goal, let people play with your service (creating personal content they might want to save) before you ask for personal information. For ongoing accounts, offer things of perceived value that are lost by closing an account. Also, can you frame your value proposition to highlight what people already lose or miss out on by not using\nyour service?",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "framing",
-      "ownership_bias"
-    ],
-    "resources": ""
-  },
-  {
-    "id": "value_attribution",
-    "title": "Value Attribution",
-    "summary": "We value things when they cost more.",
-    "description": "“Cost” may be monetary or an investment of time. Is your service priced accordingly? What items can you withhold until they are earned—perhaps a new feature or privileges? On pricing pages, offer a range of packages and highlight—or at least offer—a more expensive one than you think most customers would choose.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "story",
-      "anchoring_and_adjustment",
-      "framing",
-      "limited_access"
-    ],
-    "resources": ""
-  },
-  {
-    "id": "appropriate_challenges",
-    "title": "Appropriate Challenges",
-    "summary": "We delight in challenges, especially ones that strike a balance between overwhelming and boring.",
-    "description": "Easy is overrated. Turn some tasks into challenges. Research shows we are happiest when faced with something challenging (but not too overwhelming). The “challenge” can be designed into a system or created by reflecting someone’s personal best (or average) performance in an area. A designed challenge can be heavily constructed (game design) or merely suggest an intriguing, unsolved problem.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "curiosity",
-      "status",
-      "surprise",
-      "set_completion",
-      "reputation",
-      "competition",
-      "feedback_loops"
     ],
     "resources": ""
   },
@@ -207,7 +152,9 @@
     "summary": "We desire to act in a manner consistent with our stated beliefs and prior actions.",
     "description": "People have a general desire to be (and appear) consistent in their behavior. Ask someone to state a position, declare their intentions, or show a small gesture of support. Why? Generally, people will act in a manner consistent with these small requests, even if later asked to make a much larger (but consistent) commitment. Be careful: done poorly, these will be viewed as compliance tactics.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "social_proof",
       "story",
@@ -220,12 +167,103 @@
     "resources": ""
   },
   {
+    "id": "appropriate_challenges",
+    "title": "Appropriate Challenges",
+    "summary": "We delight in challenges, especially ones that strike a balance between overwhelming and boring.",
+    "description": "Easy is overrated. Turn some tasks into challenges. Research shows we are happiest when faced with something challenging (but not too overwhelming). The “challenge” can be designed into a system or created by reflecting someone’s personal best (or average) performance in an area. A designed challenge can be heavily constructed (game design) or merely suggest an intriguing, unsolved problem.",
+    "examples": [],
+    "categories": [
+      "Attention",
+      "Comprehension",
+      "Memory",
+      "Persuasion"
+    ],
+    "related": [
+      "curiosity",
+      "status",
+      "surprise",
+      "set_completion",
+      "reputation",
+      "competition",
+      "feedback_loops"
+    ],
+    "resources": ""
+  },
+  {
+    "id": "serial_position_effect",
+    "title": "Serial Position Effect",
+    "summary": "We have much better recall of the first and last items within a list.",
+    "description": "How do you sequence list items? If recall of specific items is critical, list the most important items at the beginning and end of a list. This could be applied to a list of checkbox items, a list of product features, the company bios—any page with a long list of items.",
+    "examples": [],
+    "categories": [
+      "Memory"
+    ],
+    "related": [
+      "peak_end_rule",
+      "chunking"
+    ],
+    "resources": ""
+  },
+  {
+    "id": "value_attribution",
+    "title": "Value Attribution",
+    "summary": "We value things when they cost more.",
+    "description": "“Cost” may be monetary or an investment of time. Is your service priced accordingly? What items can you withhold until they are earned—perhaps a new feature or privileges? On pricing pages, offer a range of packages and highlight—or at least offer—a more expensive one than you think most customers would choose.",
+    "examples": [],
+    "categories": [
+      "Persuasion"
+    ],
+    "related": [
+      "story",
+      "anchoring_and_adjustment",
+      "framing",
+      "limited_access"
+    ],
+    "resources": ""
+  },
+  {
+    "id": "loss_aversion",
+    "title": "Loss Aversion",
+    "summary": "We hate losing or letting go of what we have (even if more could be had).",
+    "description": "What is lost by leaving your site? If sign-up is your goal, let people play with your service (creating personal content they might want to save) before you ask for personal information. For ongoing accounts, offer things of perceived value that are lost by closing an account. Also, can you frame your value proposition to highlight what people already lose or miss out on by not using\nyour service?",
+    "examples": [],
+    "categories": [
+      "Persuasion"
+    ],
+    "related": [
+      "framing",
+      "ownership_bias"
+    ],
+    "resources": ""
+  },
+  {
+    "id": "framing",
+    "title": "Framing",
+    "summary": "The way in which issues and data are stated can alter our judgement and affect decisions.",
+    "description": "How are you presenting choices in your system? What are the available options? An implied story makes the most desirable choice more obvious, especially for new or difficult concepts. For example, framing donations as costing “less than a cup of coffee a day” encourages people to rationalize a monthly pledge.",
+    "examples": [],
+    "categories": [
+      "Persuasion",
+      "Memory",
+      "Comprehension"
+    ],
+    "related": [
+      "conceptual_metaphor",
+      "story",
+      "loss_aversion"
+    ],
+    "resources": ""
+  },
+  {
     "id": "contrast",
     "title": "Contrast",
     "summary": "When scanning new visual information, we are unconsciously drawn to things that stand out against their surroundings.",
     "description": "What do you want people to focus on? Use colors, size, shapes and other design elements to create visual contrast. Subtle movements on an otherwise static page catch people’s attention. Contrast can also be felt over time (an irregular e-mail notification vs. a daily notification) or through unusual and unexpected content.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Attention",
+      "Persuasion"
+    ],
     "related": [
       "chunking",
       "juxtaposition",
@@ -240,7 +278,10 @@
     "summary": "Subtle visual or verbal suggestions help us recall specific information, influencing how we respond.",
     "description": "Choose images or words suggesting a specific concept you’d like associated with an interaction. This can include everything from subtle microcopy beneath a form field to the style of photography used on a page. You can set expectations and direct what is brought into short-term memory by choosing predictable associations. Also examine what is suggested by the imagery and language already on your site.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion",
+      "Memory"
+    ],
     "related": [
       "anchoring_and_adjustment",
       "visual_imagery",
@@ -251,12 +292,32 @@
     "resources": ""
   },
   {
+    "id": "peak_end_rule",
+    "title": "Peak-End Rule",
+    "summary": "We judge our past experiences almost entirely by their peaks (pleasant and unpleasant) and how they ended.",
+    "description": "What are the peaks and endings in the customer experience you’ve designed? Peaks may be the core value you provide or a small surprise thrown into the user journey. Endpoints can be obvious (order fulfillment from an e-commerce site) or more subtle (such as a friendly or funny registration confirmation page). Identify and improve these.",
+    "examples": [],
+    "categories": [
+      "Memory"
+    ],
+    "related": [
+      "humor_effect",
+      "delighters",
+      "surprise",
+      "story",
+      "gifting"
+    ],
+    "resources": ""
+  },
+  {
     "id": "familiarity_bias",
     "title": "Familiarity Bias",
     "summary": "We tend to develop a preference for things merely because we are familiar with them.",
     "description": "If introducing a radically new project, use characteristics of something already familiar to people. For example, use visual aspects similar to other popular services or the likeness of a familiar physical equivalent. You can also establish formal partnerships with already familiar brands to help make your new idea seem safer.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "framing",
       "conceptual_metaphor",
@@ -267,26 +328,14 @@
     "resources": ""
   },
   {
-    "id": "framing",
-    "title": "Framing",
-    "summary": "The way in which issues and data are stated can alter our judgement and affect decisions.",
-    "description": "How are you presenting choices in your system? What are the available options? An implied story makes the most desirable choice more obvious, especially for new or difficult concepts. For example, framing donations as costing “less than a cup of coffee a day” encourages people to rationalize a monthly pledge.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "conceptual_metaphor",
-      "story",
-      "loss_aversion"
-    ],
-    "resources": ""
-  },
-  {
     "id": "feedback_loops",
     "title": "Feedback Loops",
     "summary": "We are engaged by situations in which we see our actions modify subsequent results.",
     "description": "Does your system respond immediately to user input? Or can you allow people to play with the information, turning a static message into an interactive one? Use numeric data to show people how they are doing, or translate data into analogous visual information. Feedback can be immediate, in the form of a quick challenge, or delivered at a later date as a monthly report.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "visual_imagery",
       "appropriate_challenges",
@@ -304,7 +353,9 @@
     "summary": "Where there is interest, people like to amass units that add to or complete a set.",
     "description": "Is there an opportunity to collect something on your site? Coupons, badges, words, pieces of a larger whole—the options are limitless. It’s best if these items link to one’s reputation and reinforce the content of your service. Business applications may benefit from performance-based collectibles that correlate with speed, frequency, quantity, effectiveness and other desirable metrics.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "chunking",
       "set_completion",
@@ -317,40 +368,14 @@
     "resources": ""
   },
   {
-    "id": "scarcity",
-    "title": "Scarcity",
-    "summary": "We infer value in something that has limited availability or is promoted as being scarce.",
-    "description": "While scarcity is typically invoked to encourage purchasing behaviors, it can also be used to increase quality by giving people a limited resource—such as tokens—with which to vote up, purchase or upload items. This introduction of a limited resource encourages people to be more judicious with the actions they take.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "variable_rewards",
-      "limited_choice",
-      "limited_duration"
-    ],
-    "resources": ""
-  },
-  {
-    "id": "conceptual_metaphor",
-    "title": "Conceptual Metaphor",
-    "summary": "We make sense of a new idea or conceptual domain by likening it to another.",
-    "description": "Are you using visual imagery or evocative language to explain difficult concepts? Help people understand your message by drawing a literal or implied analogy. Use this association to help people understand a concept and to influence how it’s perceived.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "framing",
-      "priming",
-      "visual_imagery"
-    ],
-    "resources": ""
-  },
-  {
     "id": "limited_duration",
     "title": "Limited Duration",
     "summary": "Given a choice between action and inaction, a limited time to respond increases the likelihood that people will participate.",
     "description": "While commonly used to promote purchasing behaviors, limited durations can also be used to shape day-to-day behaviors. Set limited times when certain actions can be taken. Make rewards available at specific times or have options that disappear if no action is taken within a specific period of time.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "periodic_events",
       "loss_aversion",
@@ -364,29 +389,16 @@
     "resources": ""
   },
   {
-    "id": "self_expression",
-    "title": "Self-Expression",
-    "summary": "People seek opportunities to express their personality, feelings or ideas.",
-    "description": "How are people allowed to express themselves on your site? Selecting widgets, choosing content to follow or share, using emoticons, and customizing the aesthetics of a page are all ways to enable self-expression. At the simplest level, allowing comments can be a good start, but make sure these efforts are linked back to a person’s profile. Look for ways to surface and celebrate these unique customizations.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "ownership_bias",
-      "loss_aversion",
-      "reputation",
-      "achievements",
-      "autonomy",
-      "visual_imagery"
-    ],
-    "resources": ""
-  },
-  {
     "id": "visual_imagery",
     "title": "Visual Imagery",
     "summary": "Vision trumps all other senses and is the most direct way to perception.",
     "description": "Are there opportunities to use visuals to create an emotional response or to speed up response time? If you blur all text, does the imagery convey what you want to communicate? Asking “Can a 5-year old understand this?” is a great way to uncover where text can be replaced or reinforced with an image. Use images to elicit emotions, to make literal associations (an icon or avatar) or suggestive associations (see “Priming”).",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Attention",
+      "Understanding",
+      "Memory"
+    ],
     "related": [
       "aesthetic_usability_effect",
       "juxtaposition",
@@ -401,12 +413,85 @@
     "resources": ""
   },
   {
+    "id": "scarcity",
+    "title": "Scarcity",
+    "summary": "We infer value in something that has limited availability or is promoted as being scarce.",
+    "description": "While scarcity is typically invoked to encourage purchasing behaviors, it can also be used to increase quality by giving people a limited resource—such as tokens—with which to vote up, purchase or upload items. This introduction of a limited resource encourages people to be more judicious with the actions they take.",
+    "examples": [],
+    "categories": [
+      "Persuasion"
+    ],
+    "related": [
+      "variable_rewards",
+      "limited_choice",
+      "limited_duration"
+    ],
+    "resources": ""
+  },
+  {
+    "id": "self_expression",
+    "title": "Self-Expression",
+    "summary": "People seek opportunities to express their personality, feelings or ideas.",
+    "description": "How are people allowed to express themselves on your site? Selecting widgets, choosing content to follow or share, using emoticons, and customizing the aesthetics of a page are all ways to enable self-expression. At the simplest level, allowing comments can be a good start, but make sure these efforts are linked back to a person’s profile. Look for ways to surface and celebrate these unique customizations.",
+    "examples": [],
+    "categories": [
+      "Persuasion",
+      "Attention"
+    ],
+    "related": [
+      "ownership_bias",
+      "loss_aversion",
+      "reputation",
+      "achievements",
+      "autonomy",
+      "visual_imagery"
+    ],
+    "resources": ""
+  },
+  {
+    "id": "limited_choice",
+    "title": "Limited Choice",
+    "summary": "We’re more likely to make a choice when there are fewer options.",
+    "description": "For each page or state of your site, how many choices do you offer? Can this be reduced? Also, consider the sequence of decision points people encounter“can you simplify this decision path, presenting the more pressing choices first?",
+    "examples": [],
+    "categories": [
+      "Persuasion"
+    ],
+    "related": [
+      "scarcity",
+      "status_quo_bias",
+      "sequencing",
+      "limited_duration",
+      "contrast"
+    ],
+    "resources": ""
+  },
+  {
+    "id": "conceptual_metaphor",
+    "title": "Conceptual Metaphor",
+    "summary": "We make sense of a new idea or conceptual domain by likening it to another.",
+    "description": "Are you using visual imagery or evocative language to explain difficult concepts? Help people understand your message by drawing a literal or implied analogy. Use this association to help people understand a concept and to influence how it’s perceived.",
+    "examples": [],
+    "categories": [
+      "Comprehension",
+      "Persuasion"
+    ],
+    "related": [
+      "framing",
+      "priming",
+      "visual_imagery"
+    ],
+    "resources": ""
+  },
+  {
     "id": "surprise",
     "title": "Surprise",
     "summary": "Our brains are aroused by new and unexpected discoveries (within our normal routines).",
     "description": "Are there any small surprises in the experience you’ve designed? “Surprise” could be a new addition or a variation on something routine, such as stating a confirmation message differently or changing an image on a familiar page. Also consider how you can get people’s attention by deviating from expected patterns set by other sites or experiences external to your site.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Attention"
+    ],
     "related": [
       "chunking",
       "need_for_certainty",
@@ -422,7 +507,9 @@
     "summary": "“Random“ rewards make powerful motivators; they seem scarce and unpredictable (and they’re less likely to conflict with intrinsic motivation).",
     "description": "Whether to encourage positive behaviors or to reward someone for simply logging in, what can you give out at random intervals? Rewards can be praise, virtual goods, redeemable points and so on—but without a predictable pattern. When many people are gathered in a highly social context for a short period of time (such as a fundraiser), motivate people to contribute by rewarding randomly selected individuals within the larger group.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "delighters",
       "gifting",
@@ -433,28 +520,14 @@
     "resources": ""
   },
   {
-    "id": "limited_choice",
-    "title": "Limited Choice",
-    "summary": "We’re more likely to make a choice when there are fewer options.",
-    "description": "For each page or state of your site, how many choices do you offer? Can this be reduced? Also, consider the sequence of decision points people encounter“can you simplify this decision path, presenting the more pressing choices first?",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "scarcity",
-      "status_quo_bias",
-      "sequencing",
-      "limited_duration",
-      "contrast"
-    ],
-    "resources": ""
-  },
-  {
     "id": "limited_access",
     "title": "Limited Access",
     "summary": "We naturally desire things that are perceived as exclusive or belonging to a select few.",
     "description": "“Private beta” was once a powerful tool for creating interest— and still can be when there is enough commotion. But don’t stop there: Games use levels to create exclusivity and reward proficiency. Some sites or areas of a site can be for members only (or for those who have “earned” access). “Access” can also refer to acquiring the use of features or tools that aren’t available by default.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "scarcity",
       "value_attribution",
@@ -472,7 +545,10 @@
     "summary": "Elements that are connected by uniform visual properties are perceived as being more related than elements that are not connected.",
     "description": "Imagine a page on your site blurred just enough to be unreadable. What content areas are visually connected? Should they be? What items aren’t connected but should be? This is especially useful with form design, spreadsheets and other areas where you have many discrete pieces of information that may or may not relate to each other.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Attention",
+      "Comprehension"
+    ],
     "related": [
       "contrast",
       "priming",
@@ -487,7 +563,9 @@
     "summary": "We care more deeply about personal behaviors when they may affect how peers or the public perceive us.",
     "description": "Are actions tied back to a profile or an identifying piece of information? In online social contexts, sharing actions (or a subset of actions) with others helps encourage good conduct. People build reputation through things like sharing information, connecting people, and keeping a record of their personal activities. While identity is often site-specific, consider ways to use the external identities people have built.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "social_proof",
       "self_expression",
@@ -505,7 +583,10 @@
     "summary": "Our current emotions influence our judgement and decisions.",
     "description": "Even at our most rational times, emotions still govern our behaviors. So how are you stimulating specific emotions? A really great first impression can make up for errors later on. And when we are in a more relaxed state, solutions and workarounds are more likely to be found. Use aesthetics and language to elicit feelings such as humor, fear or pleasure.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion",
+      "Attention"
+    ],
     "related": [
       "priming",
       "visual_imagery",
@@ -514,18 +595,20 @@
     "resources": ""
   },
   {
-    "id": "duration_effects",
-    "title": "Duration Effects",
-    "summary": "Perception of time is subjective.",
-    "description": "If people must wait for your system to return content or run a routine, create the perception that things are moving faster than they are. Use slower preloaders—we tend to count cycles, not milliseconds. Reveal content as parts are loaded rather than waiting to load everything at once. Or, offer a fun distraction: people who are mentally engaged in a task don’t notice how long it takes.",
+    "id": "authority",
+    "title": "Authority",
+    "summary": "We want to follow the lead and advice of a legitimate authority.",
+    "description": "To some extent, we all look for guidance and direction. How well does your site lead people through an experience? Does that experience communicate confidence and assurance? Are there options in your application that could be made at a design level on behalf of users? In an uncertain or new space, is there the presence of a formal authority figure (or brand) to reassure people?",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
-      "appropriate_challenges",
-      "affect_heuristic",
-      "humor_effect",
-      "sequencing",
-      "shaping"
+      "social_proof",
+      "contrast",
+      "limited_choice",
+      "autonomy",
+      "sequencing"
     ],
     "resources": ""
   },
@@ -535,7 +618,10 @@
     "summary": "Information grouped into familiar, manageable units is more easily understood and recalled.",
     "description": "Breaking down long lists (actions, content items, menu items, bullet points) into smaller groups makes that information easier to understand and recall. In terms of learned behaviors, we mentally “chunk” the details of routine events such as getting ready in the morning or playing guitar. Understanding the mental routines people develop—on your site or elsewhere—to respond to specific situations may reveal areas for improvement.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Memory",
+      "Comprehension"
+    ],
     "related": [
       "uniform_connectedness",
       "familiarity_bias",
@@ -547,18 +633,20 @@
     "resources": ""
   },
   {
-    "id": "authority",
-    "title": "Authority",
-    "summary": "We want to follow the lead and advice of a legitimate authority.",
-    "description": "To some extent, we all look for guidance and direction. How well does your site lead people through an experience? Does that experience communicate confidence and assurance? Are there options in your application that could be made at a design level on behalf of users? In an uncertain or new space, is there the presence of a formal authority figure (or brand) to reassure people?",
+    "id": "duration_effects",
+    "title": "Duration Effects",
+    "summary": "Perception of time is subjective.",
+    "description": "If people must wait for your system to return content or run a routine, create the perception that things are moving faster than they are. Use slower preloaders—we tend to count cycles, not milliseconds. Reveal content as parts are loaded rather than waiting to load everything at once. Or, offer a fun distraction: people who are mentally engaged in a task don’t notice how long it takes.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
-      "social_proof",
-      "contrast",
-      "limited_choice",
-      "autonomy",
-      "sequencing"
+      "appropriate_challenges",
+      "affect_heuristic",
+      "humor_effect",
+      "sequencing",
+      "shaping"
     ],
     "resources": ""
   },
@@ -568,7 +656,9 @@
     "summary": "We tend not to change an established behavior (unless the incentive to change is compelling).",
     "description": "People are inclined to keep things as they are. We adopt what is recommended—simply stating the most popular options is often enough to influence a decision—and tend to stick with that choice. Have you thought through the default options in your app? If you’re asking people to switch systems, consider how you might represent sticking with the status quo as a loss (and pitch the new system as an “alternative” rather than a replacement).",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "loss_aversion",
       "ownership_bias",
@@ -584,7 +674,9 @@
     "summary": "We constantly assess how interactions either enhance or diminish our standing relative to others and our personal best.",
     "description": "Are you providing feedback loops and measures to let people know how they are doing? Status is personal—an assessment of our standing relative to others (income, performance). Status can also be public (scoring, recognition, etc.). However, studies show that a threat response kicks in when our status seems jeopardized; take care to measure only those things linked to desired behaviors. Also use status to reinforce new skills.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "competition",
       "reputation",
@@ -600,7 +692,10 @@
     "summary": "Recurring events create sustained interest, anticipation and a sense of belonging.",
     "description": "Excluding “scheduled maintenance outings,” what do your users have to look forward to or reminisce about? Are there regular, recurring events enjoyed by all? Many kids’ games use a narrative structure to create events—why not try the same in our business applications and public websites? Consider ways that all users or groups within a system could enjoy shared recurring experiences.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion",
+      "Attention"
+    ],
     "related": [
       "story",
       "limited_duration",
@@ -610,12 +705,33 @@
     "resources": ""
   },
   {
+    "id": "proximity",
+    "title": "Proximity",
+    "summary": "Things that are close to one another are perceived to be more related than things that are spaced farther apart.",
+    "description": "Use proximity to create logical groupings. If an image goes with a piece of text, then those two elements should be close together and distanced from other pairings. Similarly, related elements on a form page or dashboard should be clustered together. Examine your content to see which items should be grouped for more clarity.",
+    "examples": [],
+    "categories": [
+      "Attention",
+      "Comprehension"
+    ],
+    "related": [
+      "juxtaposition",
+      "uniform_connectedness",
+      "visual_imagery",
+      "contrast"
+    ],
+    "resources": ""
+  },
+  {
     "id": "sequencing",
     "title": "Sequencing",
     "summary": "We are more likely to take action when complex activities are broken down into smaller tasks.",
     "description": "It’s difficult to complete a complex task such as “set up your bank account,“ “complete your profile“ or “write to a member of Congress“ Instead, break down these complex tasks into small, easily completed actions. These can be steps in a sequence or simply a list of items that need to be completed to advance through the system.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion",
+      "Attention"
+    ],
     "related": [
       "shaping",
       "variable_rewards",
@@ -626,45 +742,19 @@
     "resources": ""
   },
   {
-    "id": "proximity",
-    "title": "Proximity",
-    "summary": "Things that are close to one another are perceived to be more related than things that are spaced farther apart.",
-    "description": "Use proximity to create logical groupings. If an image goes with a piece of text, then those two elements should be close together and distanced from other pairings. Similarly, related elements on a form page or dashboard should be clustered together. Examine your content to see which items should be grouped for more clarity.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "juxtaposition",
-      "uniform_connectedness",
-      "visual_imagery",
-      "contrast"
-    ],
-    "resources": ""
-  },
-  {
     "id": "shaping",
     "title": "Shaping",
     "summary": "To teach something new, start with the simplest form of the behavior; reinforce increasingly accurate approximations of the behavior.",
     "description": "Video games use shaping to help players succeed at increasing challenges. Rather than immerse someone in your application, why not start with a small set of features and reveal more with use? Or, you could offer rewards for mastery of a subject or increasing proficiency. Identify the desired behavior, list the steps necessary to reach that behavior, reward completion of a step until mastered, then add in the next step as a prerequisite for receiving the reward.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion",
+      "Comprehension",
+      "Memory"
+    ],
     "related": [
       "sequencing",
       "variable_rewards"
-    ],
-    "resources": ""
-  },
-  {
-    "id": "humor_effect",
-    "title": "Humor Effect",
-    "summary": "Humorous items are more easily remembered—and enjoyed!.",
-    "description": "Why so serious? Almost any text is an opportunity to add humor. But don’t stop there; think about interactions and how they can be made humorous. Just as humor is injected into conversation, we can easily add humor to hover actions, button clicks, three-step processes and other user actions. In learning contexts, use humor to ease new knowledge acquisition and retention.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "affect_heuristic",
-      "peak_end_rule",
-      "surprise",
-      "delighters"
     ],
     "resources": ""
   },
@@ -674,7 +764,10 @@
     "summary": "We are engaged by and more likely to recall things that appeal to multiple senses.",
     "description": "Can you appeal to more senses than just sight or touch? Look for opportunities to add images, audio—maybe even the suggestion of smell or taste through copy and visuals. While audio is an obvious choice for videos or music sites, find subtle ways you can add these same cues to hovers, clicks, log-outs and other routine actions. Look for places to augment text with visual imagery.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Attention",
+      "Memory"
+    ],
     "related": [
       "visual_imagery",
       "aesthetic_usability_effect",
@@ -686,18 +779,40 @@
     "resources": ""
   },
   {
-    "id": "positive_mimicry",
-    "title": "Positive Mimicry",
-    "summary": "We learn by modeling our behavior after others.",
-    "description": "What examples are you setting or showing on your site to let people know what is the normal (or intended) behavior? In social contexts, find and reward people who model “good” behavior. In other cases, what examples can you provide to demonstrate positive interactions? Simply observing how we should conduct ourselves can encourage positive behaviors.",
+    "id": "humor_effect",
+    "title": "Humor Effect",
+    "summary": "Humorous items are more easily remembered—and enjoyed!.",
+    "description": "Why so serious? Almost any text is an opportunity to add humor. But don’t stop there; think about interactions and how they can be made humorous. Just as humor is injected into conversation, we can easily add humor to hover actions, button clicks, three-step processes and other user actions. In learning contexts, use humor to ease new knowledge acquisition and retention.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Memory",
+      "Attention",
+      "Persuasion"
+    ],
     "related": [
-      "reputation",
-      "shaping",
-      "social_proof",
+      "affect_heuristic",
+      "peak_end_rule",
+      "surprise",
+      "delighters"
+    ],
+    "resources": ""
+  },
+  {
+    "id": "trigger",
+    "title": "Trigger",
+    "summary": "We need small nudges placed on our regular paths to remind and motivate us to take action.",
+    "description": "Effective, encouraging nudges need to catch people where they are. On the Web this may be a tweet, advertising, a link or other distraction; offline triggers may be used as well. Also think about triggers someone can set (SMS alerts, IM reminders) or take with them (a printed sheet) as a reminder to do something.",
+    "examples": [],
+    "categories": [
+      "Persuasion"
+    ],
+    "related": [
+      "surprise",
       "feedback_loops",
-      "status"
+      "sequencing",
+      "shaping",
+      "variable_rewards",
+      "delighters"
     ],
     "resources": ""
   },
@@ -707,7 +822,9 @@
     "summary": "When sharing the same environment, we’ll strive to attain things that cannot be shared.",
     "description": "How might people compete for attention and/or resources within your system? While easily abused, competition remains a great mechanism to provide incentives for self-improvement. Depending on your objectives, competition can be among individuals or among groups. If used among individuals, be careful about recognizing one person at the expense of the group.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "status",
       "reputation",
@@ -725,7 +842,9 @@
     "summary": "We seek out situations where we can exert influence or control over something.",
     "description": "Research shows that a perception of greater autonomy increases the feeling of certainty and reduces stress. Especially within larger groups, we want the freedom to make our own choices. What options can you offer to create a feeling of control? How can you introduce choices — even trivial ones — into your system? What can people point to and claim they own or influenced?",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "self_expression",
       "authority",
@@ -736,19 +855,21 @@
     "resources": ""
   },
   {
-    "id": "trigger",
-    "title": "Trigger",
-    "summary": "We need small nudges placed on our regular paths to remind and motivate us to take action.",
-    "description": "Effective, encouraging nudges need to catch people where they are. On the Web this may be a tweet, advertising, a link or other distraction; offline triggers may be used as well. Also think about triggers someone can set (SMS alerts, IM reminders) or take with them (a printed sheet) as a reminder to do something.",
+    "id": "positive_mimicry",
+    "title": "Positive Mimicry",
+    "summary": "We learn by modeling our behavior after others.",
+    "description": "What examples are you setting or showing on your site to let people know what is the normal (or intended) behavior? In social contexts, find and reward people who model “good” behavior. In other cases, what examples can you provide to demonstrate positive interactions? Simply observing how we should conduct ourselves can encourage positive behaviors.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion",
+      "Comprehension"
+    ],
     "related": [
-      "surprise",
-      "feedback_loops",
-      "sequencing",
+      "reputation",
       "shaping",
-      "variable_rewards",
-      "delighters"
+      "social_proof",
+      "feedback_loops",
+      "status"
     ],
     "resources": ""
   },
@@ -758,7 +879,10 @@
     "summary": "The closer a collection is to being complete, the more we desire collecting all pieces.",
     "description": "What can people collect in your system? How can these things be organized into discrete sets to provide easier, achievable goals (and the motivation to continue completing the larger collection)? This principle also applies to incomplete puzzles or pictures — we desire to see the whole image completed. Look for logical groupings (like kinds of information) that can suggest sets and set completion.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion",
+      "Memory"
+    ],
     "related": [
       "curiosity",
       "collecting",
@@ -773,49 +897,15 @@
     "resources": ""
   },
   {
-    "id": "story",
-    "title": "Story",
-    "summary": "All our decisions are filtered through a story — real or imagined — that we believe.",
-    "description": "Are you creating a story that includes your users? Stories can be explicit — simple, episodic narratives. Or a story can be implied, using words that suggest conflict, a hero or other narrative elements. The most powerful stories are well-crafted visions that give significance to mundane tasks.",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "commitment_and_consistency",
-      "autonomy",
-      "authority",
-      "affect_heuristic",
-      "conceptual_metaphor",
-      "priming",
-      "framing",
-      "periodic_events"
-    ],
-    "resources": ""
-  },
-  {
-    "id": "need_for_certainty",
-    "title": "Need for Certainty",
-    "summary": "We crave certainty and are more likely to take action if specific information is available.",
-    "description": "Ambiguity can trigger a threat response resulting in anxiety. Used in small doses — such as a curious challenge — mild uncertainty can focus attention (especially where people have developed routines). But ambiguity may also lead to inaction: people are less likely to act on vague information. What information do you provide to help people make decisions? Are you intentionally creating an environment of certainty or uncertainty?",
-    "examples": [],
-    "categories": "",
-    "related": [
-      "framing",
-      "anchoring_and_adjustment",
-      "chunking",
-      "story",
-      "sequencing",
-      "limited_choice",
-      "curiosity"
-    ],
-    "resources": ""
-  },
-  {
     "id": "achievements",
     "title": "Achievements",
     "summary": "We are more likely to engage in activities in which meaningful achievements are recognized.",
     "description": "Achieving something of personal or social significance is gratifying and even motivating, but more so when recognized in some way. In gaming environments, achievement is shown through points, badges, levels and other kinds of recognition. In other contexts, achievement is signaled by things like promotion, membership, privileges, and acquisitions. What challenges — tied to desired behaviors — do you have in place and what are the associated achievements?",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion",
+      "Memory"
+    ],
     "related": [
       "appropriate_challenges",
       "feedback_loops",
@@ -832,7 +922,9 @@
     "summary": "We more highly value goods or services once we feel like we own them.",
     "description": "In what ways can people can “take ownership” on your site? In competitive environments, people are more likely to take actions to protect things already in their possession. In some contexts, you can encourage people to provide personal data by associating default values with a person’s online identity. If switching systems is your goal, beware that people may value their current choice more than they should.",
     "examples": [],
-    "categories": "",
+    "categories": [
+      "Persuasion"
+    ],
     "related": [
       "loss_aversion",
       "autonomy",
@@ -842,12 +934,56 @@
     "resources": ""
   },
   {
+    "id": "need_for_certainty",
+    "title": "Need for Certainty",
+    "summary": "We crave certainty and are more likely to take action if specific information is available.",
+    "description": "Ambiguity can trigger a threat response resulting in anxiety. Used in small doses — such as a curious challenge — mild uncertainty can focus attention (especially where people have developed routines). But ambiguity may also lead to inaction: people are less likely to act on vague information. What information do you provide to help people make decisions? Are you intentionally creating an environment of certainty or uncertainty?",
+    "examples": [],
+    "categories": [
+      "Persuasion",
+      "Attention"
+    ],
+    "related": [
+      "framing",
+      "anchoring_and_adjustment",
+      "chunking",
+      "story",
+      "sequencing",
+      "limited_choice",
+      "curiosity"
+    ],
+    "resources": ""
+  },
+  {
+    "id": "story",
+    "title": "Story",
+    "summary": "All our decisions are filtered through a story — real or imagined — that we believe.",
+    "description": "Are you creating a story that includes your users? Stories can be explicit — simple, episodic narratives. Or a story can be implied, using words that suggest conflict, a hero or other narrative elements. The most powerful stories are well-crafted visions that give significance to mundane tasks.",
+    "examples": [],
+    "categories": [
+      "Persuasion",
+      "Comprehension",
+      "Memory"
+    ],
+    "related": [
+      "commitment_and_consistency",
+      "autonomy",
+      "authority",
+      "affect_heuristic",
+      "conceptual_metaphor",
+      "priming",
+      "framing",
+      "periodic_events"
+    ],
+    "resources": ""
+  },
+  {
     "id": "juxtaposition",
     "title": "Juxtaposition",
     "summary": "Our brains will force a connection between any two items shown together or in sequence.",
     "description": "Be careful of things displayed in close proximity to each other: our brains will force a connection. This can be used intentionally, as with films or comics where two or more images shown together or in sequence create a third idea not present in the individual images. In this way, juxtaposition may be used to communicate an idea or suggest a motion than isn’t actually shown.",
     "examples": [],
-    "categories": "",
+    "categories": [],
     "related": [
       "priming",
       "proximity",
