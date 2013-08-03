@@ -27,14 +27,15 @@ function parseCardPage ( callback, error, response, body ) {
   if ( error || response.statusCode !== 200 ) { callback( error ); return; }
 
   var $cardDetail = cheerio( body ).find( '#cardDetail' );
+  var cardID = titleToID( $cardDetail.find( '.info h1' ).text() );
 
   cards.push( {
-    id: titleToID( $cardDetail.find( '.info h1' ).text() ),
+    id: cardID,
     title: $cardDetail.find( '.info h1' ).text(),
     summary: $cardDetail.find( '.info h2' ).text(),
     description: $cardDetail.find( '.content .how' ).next( 'p' ).text(),
     examples: $cardDetail.find( '.examples' ).next( 'ul' ).find( 'li' ).map( extractTextFromElementIterator ),
-    categories: categoryMap[ titleToID( $cardDetail.find( '.info h1' ).text() ) ],
+    categories: categoryMap[ cardID ],
     related: $cardDetail.find( '.seeAlso a' ).map( extractTextFromElementIterator ).map( titleToID ),
     resources: $cardDetail.find( '.resources p' ).text()
   } );
@@ -58,10 +59,15 @@ function cardsPageLoaded ( error, response, body ) {
   queue.push( $( '#cardList .card' ).map( extractCardIDFromElementIterator ) );
 }
 
+// Compare items by their title property
+function sortByTitleComparator ( current, previous ) {
+  return current.title.localeCompare( previous.title );
+}
+
 // Write contents of cards array to disk
 function writeCardsJSON () {
   if ( cards.length != 53 ) { console.error( 'Failed to load all 53 cards!' ); return; }
-  fs.writeFile( 'cards.json', JSON.stringify( cards, null, 2 ), { encoding: 'utf-8' },
+  fs.writeFile( __dirname + '/cards.json', JSON.stringify( cards.sort( sortByTitleComparator ), null, 2 ), { encoding: 'utf-8' },
     function fileWriteCallback ( error ) {
       if ( error ) { console.error( error ); }
       console.log( 'written ' + cards.length + ' cards to cards.json' );
