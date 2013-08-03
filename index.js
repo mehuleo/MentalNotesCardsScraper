@@ -18,19 +18,23 @@ function extractCardIDFromElementIterator ( index, element ) {
   return extractCardID( cheerio( this ).attr( 'href' ) );
 }
 
+function titleToID ( value, index, list ) {
+  return value.toLowerCase().replace( /[\s\-]/g, '_' ).replace( '&', 'and' );
+}
+
 function parseCardPage ( callback, error, response, body ) {
   if ( error || response.statusCode !== 200 ) { callback( error ); return; }
 
   var $cardDetail = cheerio( body ).find( '#cardDetail' );
 
   cards.push( {
-    id: extractCardID( response.request.href ),
+    id: titleToID( $cardDetail.find( '.info h1' ).text() ),
     title: $cardDetail.find( '.info h1' ).text(),
     summary: $cardDetail.find( '.info h2' ).text(),
     description: $cardDetail.find( '.content .how' ).next( 'p' ).text(),
-    examples: $cardDetail.find( '.examples' ).next( 'ul' ).find( 'li' ).map( extractElementTextIterator ),
+    examples: $cardDetail.find( '.examples' ).next( 'ul' ).find( 'li' ).map( extractTextFromElementIterator ),
     categories: '',
-    related: $cardDetail.find( '.seeAlso a' ).map( extractElementTextIterator ),
+    related: $cardDetail.find( '.seeAlso a' ).map( extractTextFromElementIterator ).map( titleToID ),
     resources: $cardDetail.find( '.resources p' ).text()
   } );
 
