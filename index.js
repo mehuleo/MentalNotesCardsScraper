@@ -19,7 +19,7 @@ function extractCardIDFromElementIterator ( index, element ) {
   return extractCardID( cheerio( this ).attr( 'href' ) );
 }
 
-function titleToID ( value, index, list ) {
+function normalizeTitle ( value, index, list ) {
   return value.toLowerCase().replace( /[\s\-]/g, '_' ).replace( '&', 'and' );
 }
 
@@ -27,16 +27,17 @@ function parseCardPage ( callback, error, response, body ) {
   if ( error || response.statusCode !== 200 ) { callback( error ); return; }
 
   var $cardDetail = cheerio( body ).find( '#cardDetail' );
-  var cardID = titleToID( $cardDetail.find( '.info h1' ).text() );
+  var cardNormalizedTitle = normalizeTitle( $cardDetail.find( '.info h1' ).text() );
 
   cards.push( {
-    id: cardID,
+    number: $cardDetail.find( '.info .num' ).text().match( /\#(.*)$/ )[ 1 ],
     title: $cardDetail.find( '.info h1' ).text(),
+    normalizedtitle: cardNormalizedTitle,
     summary: $cardDetail.find( '.info h2' ).text(),
     description: $cardDetail.find( '.content .how' ).next( 'p' ).text(),
     examples: $cardDetail.find( '.examples' ).next( 'ul' ).find( 'li' ).map( extractTextFromElementIterator ),
-    categories: categoryMap[ cardID ],
-    related: $cardDetail.find( '.seeAlso a' ).map( extractTextFromElementIterator ).map( titleToID ),
+    categories: categoryMap[ cardNormalizedTitle ],
+    related: $cardDetail.find( '.seeAlso a' ).map( extractTextFromElementIterator ).map( normalizeTitle ),
     resources: $cardDetail.find( '.resources p' ).map( extractTextFromElementIterator )
   } );
 
@@ -44,9 +45,9 @@ function parseCardPage ( callback, error, response, body ) {
 }
 
 // Parse card page and push result into cards array
-function loadCardPage ( cardID, callback ) {
-  console.log( 'Processing: ', cardID );
-  request( [ CARDS_URL, cardID ].join( '/' ), parseCardPage.bind( this, callback ) );
+function loadCardPage ( cardNormalizedTitle, callback ) {
+  console.log( 'Processing: ', cardNormalizedTitle );
+  request( [ CARDS_URL, cardNormalizedTitle ].join( '/' ), parseCardPage.bind( this, callback ) );
 }
 
 // Parse CardIDs and populate the queue
