@@ -17,7 +17,7 @@
       "status",
       "story"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "aesthetic_usability_effect",
@@ -33,7 +33,7 @@
       "visual_imagery",
       "sensory_appeal"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "affect_heuristic",
@@ -50,7 +50,7 @@
       "visual_imagery",
       "humor_effect"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "anchoring_and_adjustment",
@@ -66,7 +66,7 @@
       "priming",
       "framing"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "appropriate_challenges",
@@ -89,7 +89,7 @@
       "competition",
       "feedback_loops"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "authority",
@@ -107,7 +107,7 @@
       "autonomy",
       "sequencing"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "autonomy",
@@ -125,7 +125,7 @@
       "need_for_certainty",
       "ownership_bias"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "chunking",
@@ -145,7 +145,7 @@
       "shaping",
       "sequencing"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "collecting",
@@ -165,7 +165,7 @@
       "scarcity",
       "self_expression"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "commitment_and_consistency",
@@ -185,7 +185,7 @@
       "trigger",
       "positive_mimicry"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "competition",
@@ -205,7 +205,7 @@
       "shaping",
       "social_proof"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "conceptual_metaphor",
@@ -222,7 +222,7 @@
       "priming",
       "visual_imagery"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "contrast",
@@ -240,7 +240,7 @@
       "proximity",
       "uniform_connectedness"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "curiosity",
@@ -257,7 +257,7 @@
       "appropriate_challenges",
       "gifting"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "delighters",
@@ -276,7 +276,7 @@
       "humor_effect",
       "surprise"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "duration_effects",
@@ -294,7 +294,7 @@
       "sequencing",
       "shaping"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "familiarity_bias",
@@ -312,7 +312,7 @@
       "affect_heuristic",
       "status_quo_bias"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "feedback_loops",
@@ -332,7 +332,7 @@
       "periodic_events",
       "achievements"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "framing",
@@ -350,7 +350,7 @@
       "story",
       "loss_aversion"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "gifting",
@@ -369,7 +369,7 @@
       "sequencing",
       "trigger"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "humor_effect",
@@ -388,7 +388,7 @@
       "surprise",
       "delighters"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "juxtaposition",
@@ -403,7 +403,7 @@
       "pattern_recognition",
       "contrast"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "limited_access",
@@ -423,7 +423,7 @@
       "authority",
       "story"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "limited_choice",
@@ -441,7 +441,7 @@
       "limited_duration",
       "contrast"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "limited_duration",
@@ -462,7 +462,7 @@
       "scarcity",
       "self_expression"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "loss_aversion",
@@ -477,7 +477,7 @@
       "framing",
       "ownership_bias"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "need_for_certainty",
@@ -498,7 +498,7 @@
       "limited_choice",
       "curiosity"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "ownership_bias",
@@ -515,7 +515,7 @@
       "status_quo_bias",
       "framing"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "pattern_recognition",
@@ -534,7 +534,7 @@
       "proximity",
       "visual_imagery"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "peak_end_rule",
@@ -552,7 +552,7 @@
       "story",
       "gifting"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "periodic_events",
@@ -570,7 +570,7 @@
       "peak_end_rule",
       "limited_access"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "positive_mimicry",
@@ -589,7 +589,7 @@
       "feedback_loops",
       "status"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "priming",
@@ -608,7 +608,7 @@
       "humor_effect",
       "sensory_appeal"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "proximity",
@@ -626,7 +626,7 @@
       "visual_imagery",
       "contrast"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "recognition_over_recall",
@@ -644,7 +644,7 @@
       "contrast",
       "feedback_loops"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "reputation",
@@ -664,7 +664,7 @@
       "positive_mimicry",
       "autonomy"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "scarcity",
@@ -680,7 +680,7 @@
       "limited_choice",
       "limited_duration"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "self_expression",
@@ -700,7 +700,7 @@
       "autonomy",
       "visual_imagery"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "sensory_appeal",
@@ -720,7 +720,7 @@
       "surprise",
       "delighters"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "sequencing",
@@ -739,7 +739,7 @@
       "status",
       "reputation"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "serial_position_effect",
@@ -754,7 +754,7 @@
       "peak_end_rule",
       "chunking"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "set_completion",
@@ -777,7 +777,7 @@
       "gifting",
       "variable_rewards"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "shaping",
@@ -794,7 +794,7 @@
       "sequencing",
       "variable_rewards"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "social_proof",
@@ -817,7 +817,9 @@
       "reputation",
       "status"
     ],
-    "resources": "Lowenstein, G. (1994). The psychology of curiosity: A review and reinterpretation. Psychological Bulletin, 116, 75-98."
+    "resources": [
+      "Lowenstein, G. (1994). The psychology of curiosity: A review and reinterpretation. Psychological Bulletin, 116, 75-98."
+    ]
   },
   {
     "id": "status",
@@ -835,7 +837,7 @@
       "feedback_loops",
       "achievements"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "status_quo_bias",
@@ -853,7 +855,7 @@
       "story",
       "framing"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "story",
@@ -876,7 +878,7 @@
       "framing",
       "periodic_events"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "surprise",
@@ -894,7 +896,7 @@
       "delighters",
       "gifting"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "trigger",
@@ -913,7 +915,7 @@
       "variable_rewards",
       "delighters"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "uniform_connectedness",
@@ -931,7 +933,7 @@
       "juxtaposition",
       "proximity"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "value_attribution",
@@ -948,7 +950,7 @@
       "framing",
       "limited_access"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "variable_rewards",
@@ -966,7 +968,7 @@
       "shaping",
       "periodic_events"
     ],
-    "resources": ""
+    "resources": []
   },
   {
     "id": "visual_imagery",
@@ -990,6 +992,6 @@
       "recognition_over_recall",
       "affect_heuristic"
     ],
-    "resources": ""
+    "resources": []
   }
 ]

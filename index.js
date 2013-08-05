@@ -37,7 +37,7 @@ function parseCardPage ( callback, error, response, body ) {
     examples: $cardDetail.find( '.examples' ).next( 'ul' ).find( 'li' ).map( extractTextFromElementIterator ),
     categories: categoryMap[ cardID ],
     related: $cardDetail.find( '.seeAlso a' ).map( extractTextFromElementIterator ).map( titleToID ),
-    resources: $cardDetail.find( '.resources p' ).text()
+    resources: $cardDetail.find( '.resources p' ).map( extractTextFromElementIterator )
   } );
 
   callback();
